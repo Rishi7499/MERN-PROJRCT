@@ -1,0 +1,81 @@
+/* styles.css */
+
+.title {
+  color: red;
+  font-size: 60px;
+  font-weight: bold;
+  border-color: black;
+  border: 5px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 50%;
+  font-size: 18px;
+  margin-left: 500px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.search-button {
+  padding: 10px;
+  font-size: 18px;
+  width: 300px;
+  cursor: pointer;
+  margin-right: 380px;
+  background-color: black;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.about-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.app-container {
+  margin-left: 250px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 15px;
+}
+
+.news-item {
+  background-color: #fff;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.news-description{
+overflow: hidden;
+white-space: nowrap;
+text-overflow:ellipsis;
+}

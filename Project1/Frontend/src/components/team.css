@@ -1,0 +1,36 @@
+.team{
+    color:black;
+    font-style: italic;
+}
+
+#t{
+    margin-left: 290px;
+    font-size: 40px;
+    text-decoration:underline;
+    color: red;
+}
+
+#l{
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+#h{
+    text-decoration:underline;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#e{
+    margin-left: 290px;
+    font-size: 40px;
+    text-decoration:underline;
+    margin-top: 40px;
+    color: red;
+}
+   
+#id{
+    margin-left: 300px;
+    font-size: 30px;
+}
+
